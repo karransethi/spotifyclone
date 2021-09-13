@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+.nav {
+    margin-top: 3px;
+     display: flex;
+     justify-content: space-between;
+    
+}
+
+.search {
+     flex: 0.4;
+    left: 0;
+    margin-top: 2px;
+    margin-left: 4px;
+    background-color: white;
+    max-width: 250px;
+    height: 28px;
+    min-width: 180px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 790px;
+}
+
+
+
+.user-details {
+    flex: 0.6;
+    display: flex;
+    justify-content: space-between; 
+    max-width: 300px;
+    min-width: 50px;
+}
+
+.harrdy {
+  
+    margin-right: 18px;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+    padding: auto;
+    border-radius: 25px;
+    margin-top: 4px;
+    width: 110px;
+    height: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+@media screen and (max-width:600px)
+{
+    .harrdy {
+       display: none;
+    }
+}
+.harrdy:hover {
+    background-color: #121212;
+    border-radius: 25px;
+}
+.user-logo {
+    float: left;
+    margin-right: 13px;
+    margin-top : 5px;
+   display: inline;
+}
+.user-logo:hover {
+    cursor: pointer;
+}
+
+.display-name {
+    float: right;
+    margin-top: 6px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+}
+.display-name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.drop-down {
+    color: white;
+    margin-top: 3px;
+    margin-right: 10px;
+    zoom: 1.2;
+}
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+    font-size: small;
+    color: #9CA89C;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    color: #9CA89C;
+  }
+  
+  .dropdown-content a:hover {background-color: #4c4c4c;
+color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

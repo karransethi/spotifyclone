@@ -1,0 +1,120 @@
+.sidebar {
+    flex: 0.1;
+    min-width: 200px;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    margin-bottom: 20px;
+     position: fixed;
+    width: 230px;
+}
+.logo {
+   display: flex;
+   transition: transform .2s;
+}
+.logo:hover {
+transform: scale(1.1);
+}
+.logo img{
+    height: 32px;
+    object-fit: contain;
+    width: 20%;
+    padding-top: 20px;
+    margin-left: 35px;
+  display: inline;
+}
+
+.logo h3 {
+    display: inline;
+    text-align: center;
+    height: 20px;
+    margin-top: 24px;
+    transition: background-color 0.5s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo h3:hover{
+    color: #1DB954;
+}
+.icons {
+    margin-left: 15px;
+    transition: transform .1s;
+    color: grey;
+}
+.icons p {
+    margin-left: 15px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 2px;
+    color: grey;
+}
+
+.home {
+    margin-top: 40px;
+    display: flex;
+}
+.home:hover {
+    transform: scale(1.1);
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.browse {
+    margin-top: 20px;
+    display: flex;
+}
+.browse:hover {
+    transform: scale(1.1);
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.theme {
+    margin-top: 20px;
+    display: flex;
+}
+.theme:hover {
+    transform: scale(1.1);
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.playlist {
+    margin-top: 22px;
+    margin-left: 15px;
+  
+}
+.pp {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.pp-inside {
+margin-top: 10px;
+
+}
+.pp-inside p {
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    transition: transform .2s;
+    font-size: 15px;
+}
+.pp-inside p:hover {
+    transform: scale(1.1);
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+hr {
+    color: white;
+    margin-left: -15px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    opacity: 80%;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}

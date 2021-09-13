@@ -1,0 +1,103 @@
+.home-bg {
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+overflow-y: overlay;
+margin-bottom: 80px;
+}
+.banner {
+display: flex;
+
+}
+.banner img {
+    height: 14vw;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-content {
+    color: white;
+    flex: 1;
+    align-self: flex-end;
+    margin-left: 10px;
+}
+.banner-content h1 {
+    font-size: 70px;
+}
+.banner-content p {
+opacity: 0.7;
+font-size: 13px;
+font-family: 'Montserrat', sans-serif;
+}
+.home-btn {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 40px;
+    margin-top: 25px;
+    justify-content: space-between;
+    max-width: 140px;
+}
+.heading-home {
+    display: flex;
+    color: white;
+    margin: 10px 10px;
+
+    justify-content: space-between;
+}
+.heading-home p {
+    opacity: 0.7;
+font-size: 13px;
+font-family: 'Montserrat', sans-serif;
+
+}
+.t-home {
+   
+    word-spacing: 10px;
+}
+.home-bg hr {
+    
+        color: white;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 5px;
+        border: 1px solid grey;
+        opacity: 70%;
+        margin-bottom: 15px;
+     }
+     .t-home1 {
+         display: flex;
+         align-items: center;
+         flex: 0.3;
+         margin-left: 10px;
+     }
+     .t-home1 img {
+         height: 5vh;
+       
+     }
+     .t-home1-content {
+         margin-left: 9px;
+     }
+     .content-album {
+         margin-right: 60px;
+         flex: 0.3;
+         align-self: center;
+     }
+     .content-pop {
+        margin-right: 135px;
+        flex: 0.2;
+    }
+    .date {
+        
+        flex: 0.2;
+    }
+    .maar {
+        padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    .maar:hover {
+        cursor: pointer;
+        background-color: rgba(187, 186, 186,0.8);
+        color: black;
+        
+    }
+   
